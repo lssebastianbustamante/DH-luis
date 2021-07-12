@@ -8,7 +8,8 @@
         "_animation.scss",
         "_global.scss",
         "_navigation.scss",
-        "_footer.scss"
+        "_footer.scss",
+        "_index.scss"
     ],
     "names": [],
     "file": "style.css"
