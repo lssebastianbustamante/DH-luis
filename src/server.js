@@ -19,7 +19,7 @@ app.set('view engine', '.hbs');
 
 // Middlewares
 app.use(express.urlencoded({extended: false})); // Convierte las peticiones a JSON
-app.use(favicon(path.join(__dirname, 'public', 'images', 'favicon.png'))) //Favicon
+app.use(favicon(path.join(__dirname, 'public', 'images', 'icons', 'favicon.png'))) //Favicon
 
 // Global Variables
 
