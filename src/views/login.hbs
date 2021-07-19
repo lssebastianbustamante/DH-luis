@@ -1,1 +1,24 @@
-<h1>Login</h1>
+<form action="/login" method="POST">
+    <h3>Iniciar Sesión</h3>
+    <div class="user">
+        <label for="user"></label>
+        <input type="text" name='user' placeholder="Usuario o email" id='user'>
+    </div>
+
+    <div class="pass">
+        <label for="pass"></label>
+        <input type="password" name='pass' placeholder="Contraseña" id='pass'>
+    </div>
+
+    <div>
+        <input type="checkbox" name="remember" value="a" id="a">
+        <label for="a">Recordarme</label>
+    </div>
+
+    <div>
+        <button type="submit">Ingresar</button>
+    </div>
+
+    <p>No tienes cuenta regístrate <a href="/register">aquí</a></p>
+
+</form>

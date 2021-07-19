@@ -1,0 +1,19 @@
+footer {
+    background-color: black;
+    color: white;
+}
+
+footer h3 {
+    text-align: center;
+    text-decoration: underline;
+}
+
+footer section {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+footer p {
+    font-size: 12px;
+    text-align: center;
+}
