@@ -1,32 +1,10 @@
 * {
   margin: 0;
   padding: 0;
-  box-sizing: border-box;
 }
 
-body {
-  font-family: 'Catamaran',
-    sans-serif;
-}
-
-header {
-  background-color: black;
-  color: white;
-}
-
-div.burger-menu .img {
-  background-color: black;
-  color: #FFF;
-  font-size: 20px;
-  height: 40px;
-  margin: 10px 0px 20px 0px;
-  padding: 10px;
-  width: 40px;
-}
-
-nav ul li {
-  display: flex;
-  justify-content: space-around;
+h1 {
+  color: blue;
 }
 
 ul {
@@ -39,63 +17,21 @@ li {
   display: inline-block;
   margin: 10px;
   padding: 10px;
-  text-decoration: none;
 }
 
-/* Formulario de registro - register.html */
-
-form h1 {
-  margin-top: 5px;
-  text-align: center;
-  font-weight: 600;
+header {
+  background-color: black;
+  color: white;
 }
 
-form {
-
-  padding: 40px 0;
-  display: flex;
-  justify-content: center;
-  align-items: center;
+body {
+  font-family: 'Catamaran', sans-serif;
 }
 
-.form {
-  background: #f1f1f1;
-  width: 100%;
-  margin: auto
+header {
+  background-color: black;
+  color: white;
 }
-
-form .group {
-  position: relative;
-  margin: 45px;
-}
-
-input {
-  background: none;
-  font-size: 18px;
-  padding: 10px 10px 10px 5px;
-  display: block;
-  width: 85%;
-  border: none;
-  border-bottom: 1px solid black;
-  text-align: center;
-}
-
-input:focus {
-  outline: none;
-}
-
-button {
-  background: #969696;
-  border: none;
-  display: block;
-  width: 40%;
-  margin: 10px auto;
-  height: 40px;
-  font-size: 16px;
-}
-
-
-
 
 footer {
   background-color: black;
@@ -108,14 +44,20 @@ footer h3 {
 }
 
 footer section {
+  display: -webkit-box;
+  display: -ms-flexbox;
   display: flex;
-  flex-direction: row;
-  justify-content: space-between;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
 }
 
 footer p {
   font-size: 12px;
   text-align: center;
 }
-
 /*# sourceMappingURL=style.css.map */
