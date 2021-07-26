@@ -1,8 +1,4 @@
-body {
-    margin: 0%;
-    padding: 0;
-    box-sizing: border-box;
-    font-family: 'Catamaran', sans-serif;
+.containerForm {
     background: #D0D0D0;
     background-image: url();
     height: 650px;
@@ -11,7 +7,7 @@ body {
     align-items: center;
 }
 
-h1 {
+form h1 {
     text-align: center;
     font-size: 600;
     margin-top: 15px;
@@ -31,7 +27,7 @@ form .group {
     margin: 25px;
 }
 
-input {
+form input {
     background: none;
     font-size: 18px;
     padding: 10px 5px 10px 5px;
@@ -40,16 +36,16 @@ input {
     width: 96%;
 }
 
-input:focus {
+form input:focus {
     outline: none;
 }
 
-::placeholder {
+form ::placeholder {
     font-size: 16px;
     text-align: center;
 }
 
-label {
+form label {
     color: black;
     font-size: 16px;
     position: absolute;
@@ -58,13 +54,13 @@ label {
     pointer-events: none;
 }
 
-.barra {
+form .barra {
     position: relative;
     display: block;
     width: 100%;
 }
 
-.barra::before {
+form .barra::before {
     content: "";
     height: 1.5px;
     width: 0%;
@@ -75,7 +71,7 @@ label {
     left: 0;
 }
 
-input:focus~.barra::before {
+form input:focus~.barra::before {
     width: 100%;
 }
 
@@ -83,7 +79,7 @@ form .check {
     position: relative;
 }
 
-button {
+form button {
     font-family: 'Catamaran', sans-serif;
     background: #C1BFBF;
     border: none;
@@ -95,17 +91,17 @@ button {
     cursor: pointer;
 }
 
-p {
+.formLogin p {
     text-align: center;
 }
 
-p a {
+.formLogin p a {
     text-decoration: none;
     color: black;
     transition: color .4s ease;
 }
 
-p a:hover {
+.formLogin p a:hover {
     color: #FFB803;
     text-shadow: currentColor;
 }
