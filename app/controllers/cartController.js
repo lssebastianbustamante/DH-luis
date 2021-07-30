@@ -1,5 +1,5 @@
 let cartCtrl = {
-    listar : function(req, res, next) {
+    listar : function(req, res) {
         res.render('product-cart', { title: 'Cart' });
       },
 };

@@ -1,6 +1,6 @@
 let indexCtrl = {
-    listar : function(req, res, next) {
-        res.render('index', { title: 'Express' });
+    listar : function(req, res) {
+        res.render('index', { title: 'Home' });
       },
 };
 
