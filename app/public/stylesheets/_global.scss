@@ -40,12 +40,25 @@ a, a:active, a:hover {
   padding: 1rem;
   background-color: black;
   color: white;
+  transition:  200ms ease-in-out;
 
   &:hover {
     background-color: white;
     border: 1px solid black;
     color: black;
   }
+}
 
+ //Visibility
+ .hide-for-mobile { //Hide for mobile and tablet
+  @include breakpoints-down (medium) {
+    display: none;
+  }
+}
+
+.hide-for-desktop { //Hide for mobile and tablet
+  @include breakpoints-up (large) {
+    display: none;
+  }
 }
 
